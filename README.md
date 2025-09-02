@@ -18,7 +18,8 @@ End
 # PROGRAM
 ```
 
-212223060113-Karnatam Bindu
+# 212223060113-Karnatam Bindu
+
 def cc(s1,s2):
     ccc=[char for char in s1 if char in s2]
     for char in ccc:
@@ -56,7 +57,8 @@ Return True
 End
 # PROGRAM
 ```
-212223060113- Karnatam Bindu
+# 212223060113- Karnatam Bindu
+
 import re 
 s=input()
 if re.search(r'^[a-zA-Z0-9]+$',s):
@@ -89,7 +91,9 @@ End the function.
 Terminate the program.
 # PROGRAM
 ```
-212223060113-Karnatam Bindu
+# 212223060113-Karnatam Bindu
+
+
 def createlist(n):
     l=[]
     for i in range(12,n):
@@ -123,7 +127,9 @@ Print the length of the tuple using len(b).
 End the program.
 # PROGRAM
 ```
-212223060113-Karnatm Bindu
+# 212223060113-Karnatm Bindu
+
+
 n=int(input())
 a=[]
 sum=0
@@ -158,7 +164,8 @@ Call the function with a test email ID.
 End the program.
 # PROGRAM
 ```
-212223060113-Karnatam Bindu
+# 212223060113-Karnatam Bindu
+
 def splitstring(a): x=a.split('@') print(x)
 ```
 
