@@ -1,30 +1,21 @@
-# Exp.No:3e
-## SEB - STRING SLICING
+# Exp.No:3e SEB - STRING SPLITTING
+# AIM
+To write a Python function that splits an email ID string into two parts using the "@" symbol.
 
----
+# ALGORITHM
+1. Start the program.
+2. Define a function named splitstring that accepts one argument a.
+3. Inside the function, use the built-in split('@') method to split the string at the "@" symbol. Store the result in a variable x. Print the resulting list x. Call the function with a test email ID.
+4. End the program.
 
-### AIM  
-To write a Python function that accepts a string and forms a new string by reversing the characters from the **4th position to the 10th position** with **alternate characters**, and then prints the new string.
-
----
-
-### ALGORITHM
-
-1. Begin the program.  
-2. Accept a string as input.  
-3. Take a slice of the input string from index **2** to **10** (Python uses 0-based indexing, so index 2 refers to the 3rd character, i.e., the 4th character in natural terms).  
-4. Reverse the sliced substring.  
-5. Extract every second character from the reversed substring using slicing (`[::2]`).  
-6. Print the final processed string.  
-7. Terminate the program.
-
----
-
-### PROGRAM
-
+# PROGRAM
+# 212223060113-Karnatam Bindu
 ```
+def splitstring(a): x=a.split('@') print(x)
 ```
+# OUTPUT
+<img width="1223" height="344" alt="image" src="https://github.com/user-attachments/assets/e031c233-bbfd-4de5-9458-0584512fc97b" />
 
-### OUTPUT
+# RESULT
+Thus the program that splits an email ID string into two parts using the "@" symbol has been implemented and executed successfully.
 
-### RESULT
