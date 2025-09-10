@@ -1,29 +1,25 @@
-# Exp.No:3b  
-## REGEX - PATTERN MATCHING USING REGEX
+# Exp.No:3b REGEX - PATTERN MATCHING USING REGEX
+# AIM
+To write a Python program that matches a string containing only a certain set of characters (in this case a-z, A-Z and 0-9) using regular expressions.
 
----
+# ALGORITHM
+1. Start Input the string → str1 Define the allowed character set → allowed = [a–z, A–Z, 0–9] For each character ch in str1:
+2. If ch is not in the allowed set → Return False (string contains invalid characters) If loop completes without invalid characters → Return True
+3. End
 
-### AIM  
-To write a Python program that matches a string containing an `'a'` followed by **two to three `'b'` characters** using regular expressions.
-
----
-
-### ALGORITHM
-
-1. Begin the program.  
-2. Accept a string `str1` from the user.  
-3. Define the regular expression pattern as `r"[a]+b{2,3}"`.  
-4. Use the `re.match()` function to check if the string `str1` matches the pattern.  
-5. If a match is found, print `"Found a match!"`.  
-6. If no match is found, print `"Not matched!"`.  
-7. Terminate the program.
-
----
-
-### PROGRAM
-
+# PROGRAM
+# 212223060113- Karnatam Bindu
 ```
+import re 
+s=input()
+if re.search(r'^[a-zA-Z0-9]+$',s):
+    print(True)
+else:
+    print(False)
 ```
-### OUTPUT
+# OUTPUT
+<img width="1192" height="347" alt="image" src="https://github.com/user-attachments/assets/e86afb83-8e8d-42a6-ad15-d88a461b01e0" />
 
-### RESULT
+# RESULT
+Thus the program matches a string containing only a certain set of characters (in this case a-z, A-Z and 0-9) using regular expressions has been implemented and executed successfully.
+
